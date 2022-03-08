@@ -1,0 +1,69 @@
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --Paars: #5722CD;
+    --Blauw: #4845E4;
+    --Roze: #ED4385;
+    --Zwart: #0C0C0C;
+    --Lichtpaars: #F2F0FF;
+    --Lichtgrijs: #F3F6F9;
+    --Grijs: #7A7A7A;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+a:link {
+    color:white;
+}
+a:visited {
+    color: green;
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+h1, h2, h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+.content-container {
+    flex-basis: 500px;
+}
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------- */
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+header {
+    color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+    background-color: #5722CD;
+    border: 1px solid black;
+    padding: 30px 0;
+}
+/* --------------- 4.2 Introduction ------------- */
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
