@@ -1,3 +1,45 @@
-h1 {
-    color:blue;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #DFD9E2;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #535865
+    font-weight: 300;
+}
+H1,H2,H3{
+    color:#865B9A;
+    font-weight: 500;
+}
+#introduction{
+    font-weight: 600;
+}
+ul{
+    list-style: square;
+}
+
+H1{
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+H2{
+    font-size: 40px;
+    letter-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+H3{
+    font-size: 40px;
+    text-align: left;
+}
+button{
+    font-size: 40px;
+    color: white;
+    background-color: #865B9A;
 }
